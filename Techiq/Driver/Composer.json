@@ -1,0 +1,22 @@
+{
+    "name": "techiq/module-events",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "lokesh.techiq@gmail,com",
+            "name": "lokesh"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Techiq\\Driver\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="techiq_driver::core" title="TechIQ Drivers" module="Techiq_Driver" sortOrder="90" resource="Techiq_Driver::sample"/>
+        <add id="techiq_driver::test" title="Display All Drivers" module="Techiq_Driver" sortOrder="10" parent="techiq_driver::core" action="techiq_driver/items/" resource="techiq_driver::items"/>
+    </menu>
+</config>
